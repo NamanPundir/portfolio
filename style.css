@@ -1,0 +1,89 @@
+.d-flex {
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    margin-left: 12%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.p-2{
+    width: 50%;
+    margin-left: 2%;
+    font-size: 2rem;
+}
+@media screen {
+    .d-flex{
+        flex-direction: column;
+    }
+}
+img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(178, 228, 231);
+}
+.btn{
+    height: 30px;
+    margin-left: 12%;
+}
+.card{
+    top: 20px;
+    margin-right: 20px;
+    background-color:rgb(73, 229, 177);
+    margin-left: 10px;
+    color: black;
+}
+.back{
+    background:linear-gradient( to right, rgb(206, 165, 244),rgb(150, 65, 231));
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    width: 800px;
+}
+.card:hover{
+    scale: 1.05;
+}
+.nav-item:hover{
+    scale:1.05;
+}
+.btn btn-dark{
+    text-decoration: none;
+    text-decoration-color: azure;
+}
+
+.resume{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.view{
+    margin-top: 30px;
+    margin-left: 12%;
+    font-size: 1.09rem;
+    font-weight: bolder;
+    color: white;
+    border-bottom: 2px solid;
+}
+h1{
+    font-size: 1.90rem;
+}
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    margin: 10px;
+    margin-left: 60px;
+}
+img:hover{
+    scale: 1.09;
+}
+.bio:hover{
+    scale: 1.05;
+    color: aqua;
+}
+h1:hover{
+    scale: 1.05;
+    color:aqua;
+}
+.view:hover{
+    scale: 1.05;
+    color: lightgreen;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--details-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about/cer.html"><b>Certificates</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about/contact.html"><b>Contact</b></a>
+              </li>
+          </div>
+        </div>
+    </nav>
+    
+    <div class="back">
+      <!--flex the side-->
+      <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+            <h1><b>Hi, I am Naman, <br> 
+                Front-end developer</b>
+            </h1>
+            <p class="bio">Check some projects of mine <br>that explain my experience</p>
+        </div>
+        <div class="p-2 bd-highlight">
+          <img src="./profilepic.jpg" alt="profile pic" height="150px" width="180"><br>
+          <img src="./icon/html.png" class="icon" height="50" alt="html icon"> <br>
+          <img src="./icon/css.png" class="icon" height="50" alt="css icon"> <br>
+          <img src="./icon/js.jpeg" class="icon" height="50" alt="js icon"> <br>                           
+        </div>
+      </div>
+
+      <!--download-->
+      <button type="button" class="btn btn-warning"><a class="resume" href="./about/resume.html" download="Resume">Download resume</a></button>
+      <hr>
+
+      <!--about projects-->
+      <p class="view">View My Projects</p>
+      <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Music Player</h5>
+            <p class="card-text">There is a music list to listen to songs.</p>
+            <a href="https://namanpundir.github.io/music/" class="btn btn-primary">Visit Me</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Weather+Clock</h5>
+            <p class="card-text">We can check the weather of any city.<br>
+              I also made a watch.                    
+            </p>
+            <a href="https://namanpundir.github.io/weatherclock/" class="btn btn-primary">Visit Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
